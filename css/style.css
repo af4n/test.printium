@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 3, ../sass/style.scss */
+/* line 5, ../sass/style.scss */
 .loader {
   background: none repeat scroll 0 0 #ffffff;
   bottom: 0;
@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 9999;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .loader-inner {
   background-image: url("../img/preload.gif");
   background-repeat: no-repeat;
@@ -91,26 +91,113 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
 }
 
-/* line 28, ../sass/style.scss */
-.main-head {
-  min-height: 620px;
-}
 /* line 30, ../sass/style.scss */
+.main-head {
+  min-height: 300px;
+}
+/* line 32, ../sass/style.scss */
 .main-head .top-line {
   padding-top: 50px;
 }
-/* line 33, ../sass/style.scss */
-.main-head .head-content {
-  margin-top: 100px;
+/* line 34, ../sass/style.scss */
+.main-head .top-line .btn {
+  margin-top: 12px;
 }
-/* line 35, ../sass/style.scss */
-.main-head .head-content h1 {
-  font: 48px/48px sans-serif;
-  color: white;
-  margin-bottom: 50px;
+/* line 38, ../sass/style.scss */
+.main-head .head-content {
+  margin-top: 200px;
 }
 /* line 40, ../sass/style.scss */
+.main-head .head-content h1 {
+  font-size: 44px;
+  line-height: 64px;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+/* line 47, ../sass/style.scss */
 .main-head .head-content h3 {
-  font: 36px/36px sans-serif;
-  color: white;
+  font-size: 36px;
+  line-height: 64px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* line 56, ../sass/style.scss */
+.how-we-work {
+  background-color: #E6E6E6;
+  text-align: center;
+}
+/* line 59, ../sass/style.scss */
+.how-we-work h3 {
+  font-size: 36px;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+/* line 65, ../sass/style.scss */
+.how-we-work .work {
+  float: left;
+  margin-top: 80px;
+}
+/* line 68, ../sass/style.scss */
+.how-we-work .work p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+/* line 72, ../sass/style.scss */
+.how-we-work .work span {
+  font-size: 48px;
+  color: #f2bb18;
+  border: 5px solid #f2bb18;
+  border-radius: 50%;
+  padding: 20px;
+}
+/* line 80, ../sass/style.scss */
+.how-we-work .col-xs-1-5,
+.how-we-work .col-sm-1-5,
+.how-we-work .col-md-1-5,
+.how-we-work .col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 20%;
+  float: left;
+}
+
+/* line 93, ../sass/style.scss */
+.we-offer {
+  text-align: center;
+}
+/* line 95, ../sass/style.scss */
+.we-offer h3 {
+  font-size: 36px;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+/* line 101, ../sass/style.scss */
+.we-offer .offer {
+  margin-top: 80px;
+}
+/* line 103, ../sass/style.scss */
+.we-offer .offer img {
+  margin: 0 auto;
+}
+/* line 106, ../sass/style.scss */
+.we-offer .offer p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+/* line 113, ../sass/style.scss */
+.unlike-competitors {
+  background-color: #f2bb18;
+  text-align: center;
+}
+/* line 117, ../sass/style.scss */
+.unlike-competitors .unlike span {
+  float: left;
+  font-size: 54px;
 }

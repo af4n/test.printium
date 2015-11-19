@@ -1,5 +1,7 @@
 @import "compass/reset";
 
+$skins: #f2bb18;
+
 .loader {
     background: none repeat scroll 0 0 #ffffff;
     bottom: 0;
@@ -26,21 +28,95 @@
 }
 
 .main-head {
-	min-height: 620px;
+	min-height: 300px;
 	.top-line {
 		padding-top: 50px;
+        .btn {
+            margin-top: 12px;
+        }
 	}
 	.head-content {
-		margin-top: 100px;
+		margin-top: 200px;
 		h1 {
-			font: 48px/48px sans-serif;
-			color: white;
-			margin-bottom: 50px;
+			font-size: 44px;
+            line-height: 64px;
+			color: #333;
+            text-transform: uppercase;
+			margin-bottom: 80px;
 		}
 		h3 {
-			font: 36px/36px sans-serif;
-			color: white;
+			font-size: 36px;
+            line-height: 64px;
+			color: #333;
+            text-transform: uppercase;
 		}
 	}
 }
 
+.how-we-work {
+    background-color: #E6E6E6;
+    text-align: center;
+    h3 {
+        font-size: 36px;
+        color: #333;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+    .work {
+        float: left;
+        margin-top: 80px;
+        p {
+            font-size: 20px;
+            margin: 30px 0;
+        }
+        span {
+            font-size: 48px;
+            color: $skins;
+            border: 5px solid $skins;
+            border-radius: 50%;
+            padding: 20px;
+        }
+    }
+    .col-xs-1-5,
+    .col-sm-1-5,
+    .col-md-1-5,
+    .col-lg-1-5 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 20%;
+        float: left;
+    }
+}
+
+.we-offer {
+    text-align: center;
+    h3 {
+            font-size: 36px;
+            color: #333;
+            text-transform: uppercase;
+            margin-top: 100px;
+        }
+    .offer {
+        margin-top: 80px;  
+        img {
+            margin: 0 auto;
+        }
+        p {
+            font-size: 20px;
+            margin: 30px 0;
+        }
+    }
+}
+
+.unlike-competitors {
+    background-color: $skins;
+    text-align: center;
+    .unlike {
+        span {
+            float: left;
+            font-size: 54px;
+        }
+    }
+}
