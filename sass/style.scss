@@ -2,6 +2,24 @@
 
 $skins: #f2bb18;
 
+p {
+    font: 16px/18px OpenSansBold;
+}
+
+h3 {
+    font: 32px/46px OpenSansSemiBold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font: 20px/30px OpenSansSemiBold;
+}
+
+.box {
+    padding: 100px 0;
+}
+
 .loader {
     background: none repeat scroll 0 0 #ffffff;
     bottom: 0;
@@ -40,41 +58,36 @@ $skins: #f2bb18;
 		h1 {
 			font-size: 44px;
             line-height: 64px;
-			color: #333;
+			color: #868686;
             text-transform: uppercase;
 			margin-bottom: 80px;
+            font-family: OpenSansExtraBold;
 		}
-		h3 {
-			font-size: 36px;
-            line-height: 64px;
-			color: #333;
-            text-transform: uppercase;
-		}
+        h3 {
+            color: #868686;
+        }
 	}
 }
 
 .how-we-work {
-    background-color: #E6E6E6;
+    background-color: #868686;
     text-align: center;
     h3 {
-        font-size: 36px;
-        color: #333;
-        text-transform: uppercase;
-        margin-top: 100px;
-    }
+            color: #fff;
+        }
     .work {
         float: left;
-        margin-top: 80px;
-        p {
-            font-size: 20px;
-            margin: 30px 0;
-        }
         span {
-            font-size: 48px;
-            color: $skins;
-            border: 5px solid $skins;
+            font-size: 64px;
+            color: #868686;
             border-radius: 50%;
-            padding: 20px;
+            padding: 40px;
+            margin: 80px 0 40px 0;
+            background-color: #fff;
+        }
+        p {
+            color: #fff;
+            font-family: OpenSansRegular;
         }
     }
     .col-xs-1-5,
@@ -93,30 +106,41 @@ $skins: #f2bb18;
 .we-offer {
     text-align: center;
     h3 {
-            font-size: 36px;
-            color: #333;
-            text-transform: uppercase;
-            margin-top: 100px;
-        }
-    .offer {
-        margin-top: 80px;  
+        color: #868686;
+    }
+    .offer {  
         img {
-            margin: 0 auto;
+            margin: 80px auto 40px auto;
         }
         p {
-            font-size: 20px;
-            margin: 30px 0;
+            color: #868686;
         }
     }
 }
 
 .unlike-competitors {
     background-color: $skins;
-    text-align: center;
+
+    h3 {
+        color: #fff;
+    }
     .unlike {
+        margin-top: 80px;
         span {
-            float: left;
-            font-size: 54px;
+            font-size: 64px;
+            padding: 40px;
+            color: $skins;
+            background-color: #fff;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        h4 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #fff;
+            font-family: OpenSansRegular;
         }
     }
 }

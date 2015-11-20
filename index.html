@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>BeMax</title>
-
-    <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,9 +49,9 @@
     </header>
 
     <section>
-      <div class="how-we-work">
+      <div class="how-we-work box">
         <div class="container">
-          <h3>Как мы работаем:</h3>
+          <h3>Как мы работаем</h3>
           <div class="row"> 
             <div class="work col-md-1-5">
               <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
@@ -79,9 +79,9 @@
     </section>
 
     <section>
-      <div class="we-offer">
+      <div class="we-offer box">
         <div class="container">
-          <h3>Мы предлагаем:</h3>
+          <h3>Мы предлагаем</h3>
           <div class="row">
             <div class="offer col-md-3 img-responsive">
               <img src="img/clothes.jpg" class="img-responsive">
@@ -105,32 +105,51 @@
     </section>
 
     <section>
-      <div class="unlike-competitors">
+      <div class="unlike-competitors box">
         <div class="container">
           <h3>Что отличает нас от конкурентов</h3>
           <div class="row">
-            <div class="unlike col-md-6">
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-              <h3>Оперативность</h3>
+            <div class="unlike col-xs-12 col-md-6">
+              <span class="glyphicon glyphicon-time pull-left" aria-hidden="true"></span>
+              <h4>Оперативность</h4>
               <p>Успешно справляемся с заказами «сегодня на сегодня»</p>
             </div>
-            <div class="unlike col-md-6">
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-              <h3>100% качество</h3>
+            <div class="unlike col-xs-12 col-md-6">
+              <span class="glyphicon glyphicon-thumbs-up pull-left" aria-hidden="true"></span>
+              <h4>100% качество</h4>
               <p>Мы сотрудничаем только с проверенными поставщиками качественного текстиля и другой продукции, используем современные технологии печати</p>
             </div>
           </div>
 
           <div class="row">
-            <div class="unlike col-md-6">
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-              <h3>Безопасные краски</h3>
+            <div class="unlike col-xs-12 col-md-6">
+              <span class="glyphicon glyphicon-tint pull-left" aria-hidden="true"></span>
+              <h4>Безопасные краски</h4>
               <p>Печать производится красками на водной основе, которые безопасны для аллергетиков и детей</p>
             </div>
-            <div class="unlike col-md-6">
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-              <h3>Безупречное обслуживание</h3>
+            <div class="unlike col-xs-12 col-md-6">
+              <span class="glyphicon glyphicon-usd pull-left" aria-hidden="true"></span>
+              <h4>Безупречное обслуживание</h4>
               <p>Когда Вы делаете заказ на Printium.com.ua, Вы имеете в распоряжении весь коллектив художников и экспертов абсолютно бесплатно. Наши специалисты рассматривают каждый заказ индивидуально, мы выполним все Ваши требования</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="work-examples">
+        <div class="container">
+          <div class="row">
+            <div class="slider">
+              <ul class="bxslider">
+                <li><img src="img/sl1.jpg" /></li>
+                <li><img src="img/sl2.jpg" /></li>
+                <li><img src="img/sl3.jpg" /></li>
+                <li><img src="img/sl4.jpg" /></li>
+                <li><img src="img/sl5.jpg" /></li>
+                <li><img src="img/sl6.jpg" /></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -140,6 +159,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.bxslider.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/common.js"></script>

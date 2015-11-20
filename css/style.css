@@ -64,6 +64,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 5, ../sass/style.scss */
+p {
+  font: 16px/18px OpenSansBold;
+}
+
+/* line 9, ../sass/style.scss */
+h3 {
+  font: 32px/46px OpenSansSemiBold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 15, ../sass/style.scss */
+h4 {
+  font: 20px/30px OpenSansSemiBold;
+}
+
+/* line 19, ../sass/style.scss */
+.box {
+  padding: 100px 0;
+}
+
+/* line 23, ../sass/style.scss */
 .loader {
   background: none repeat scroll 0 0 #ffffff;
   bottom: 0;
@@ -76,7 +98,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 9999;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .loader-inner {
   background-image: url("../img/preload.gif");
   background-repeat: no-repeat;
@@ -91,69 +113,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .main-head {
   min-height: 300px;
 }
-/* line 32, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .main-head .top-line {
   padding-top: 50px;
 }
-/* line 34, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .main-head .top-line .btn {
   margin-top: 12px;
 }
-/* line 38, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .main-head .head-content {
   margin-top: 200px;
 }
-/* line 40, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .main-head .head-content h1 {
   font-size: 44px;
   line-height: 64px;
-  color: #333;
+  color: #868686;
   text-transform: uppercase;
   margin-bottom: 80px;
+  font-family: OpenSansExtraBold;
 }
-/* line 47, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .main-head .head-content h3 {
-  font-size: 36px;
-  line-height: 64px;
-  color: #333;
-  text-transform: uppercase;
+  color: #868686;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .how-we-work {
-  background-color: #E6E6E6;
+  background-color: #868686;
   text-align: center;
 }
-/* line 59, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .how-we-work h3 {
-  font-size: 36px;
-  color: #333;
-  text-transform: uppercase;
-  margin-top: 100px;
+  color: #fff;
 }
-/* line 65, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .how-we-work .work {
   float: left;
-  margin-top: 80px;
-}
-/* line 68, ../sass/style.scss */
-.how-we-work .work p {
-  font-size: 20px;
-  margin: 30px 0;
-}
-/* line 72, ../sass/style.scss */
-.how-we-work .work span {
-  font-size: 48px;
-  color: #f2bb18;
-  border: 5px solid #f2bb18;
-  border-radius: 50%;
-  padding: 20px;
 }
 /* line 80, ../sass/style.scss */
+.how-we-work .work span {
+  font-size: 64px;
+  color: #868686;
+  border-radius: 50%;
+  padding: 40px;
+  margin: 80px 0 40px 0;
+  background-color: #fff;
+}
+/* line 88, ../sass/style.scss */
+.how-we-work .work p {
+  color: #fff;
+  font-family: OpenSansRegular;
+}
+/* line 93, ../sass/style.scss */
 .how-we-work .col-xs-1-5,
 .how-we-work .col-sm-1-5,
 .how-we-work .col-md-1-5,
@@ -166,38 +183,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   float: left;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .we-offer {
   text-align: center;
 }
-/* line 95, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .we-offer h3 {
-  font-size: 36px;
-  color: #333;
-  text-transform: uppercase;
-  margin-top: 100px;
+  color: #868686;
 }
-/* line 101, ../sass/style.scss */
-.we-offer .offer {
-  margin-top: 80px;
-}
-/* line 103, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .we-offer .offer img {
-  margin: 0 auto;
+  margin: 80px auto 40px auto;
 }
-/* line 106, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .we-offer .offer p {
-  font-size: 20px;
-  margin: 30px 0;
+  color: #868686;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .unlike-competitors {
   background-color: #f2bb18;
-  text-align: center;
 }
-/* line 117, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
+.unlike-competitors h3 {
+  color: #fff;
+}
+/* line 127, ../sass/style.scss */
+.unlike-competitors .unlike {
+  margin-top: 80px;
+}
+/* line 129, ../sass/style.scss */
 .unlike-competitors .unlike span {
-  float: left;
-  font-size: 54px;
+  font-size: 64px;
+  padding: 40px;
+  color: #f2bb18;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 20px;
+}
+/* line 137, ../sass/style.scss */
+.unlike-competitors .unlike h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 141, ../sass/style.scss */
+.unlike-competitors .unlike p {
+  color: #fff;
+  font-family: OpenSansRegular;
 }
