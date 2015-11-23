@@ -38,12 +38,3 @@
     font-weight: normal;
 }
 
-@font-face {
-    font-family: "VerdanaRegular";
-    src: url("../fonts/VerdanaRegular/VerdanaRegular.eot");
-    src: url("../fonts/VerdanaRegular/VerdanaRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/VerdanaRegular/VerdanaRegular.woff") format("woff"),
-    url("../fonts/VerdanaRegular/VerdanaRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
